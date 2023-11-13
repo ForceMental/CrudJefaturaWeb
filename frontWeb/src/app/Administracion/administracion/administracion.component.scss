@@ -1,0 +1,61 @@
+/* administracion.component.scss */
+.admin-panel {
+    background-color: #7ca9f7; // Un color azul profundo y elegante
+    color: #ffffff; // Texto en blanco para un alto contraste
+    min-height: 100vh; // Asegura una cobertura total en altura
+    width: 100%; // Asegura una cobertura total en anchura
+    padding: 30px 20px; // Un padding más generoso para un aspecto moderno
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; // Centra el contenido verticalmente
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; // Fuente moderna y limpia
+  }
+  
+  .admin-heading {
+    font-size: 28px; // Un tamaño de fuente prominente para el encabezado
+    font-weight: 600; // Hace que el texto del encabezado sea más grueso
+    margin-bottom: 40px; // Más espacio antes de la lista
+  }
+  
+  nav ul {
+    list-style: none; // Remueve los bullets de la lista
+    padding: 0;
+    margin: 0;
+    width: 100%; // La lista ocupa todo el ancho del contenedor
+    max-width: 300px; // Un ancho máximo para limitar el tamaño de los elementos de la lista
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Una sutil sombra para dar profundidad
+    border-radius: 8px; // Bordes redondeados para la lista
+    overflow: hidden; // Esconde cualquier cosa que se salga de los bordes redondeados
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    padding: 20px 25px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 18px;
+    font-weight: 500; // Un poco más de grosor para el texto de la lista
+  }
+  
+  nav ul li a:hover, nav ul li a:focus {
+    background-color: #1D5A8C; // Un azul más claro para el estado hover
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-logo {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 0; // Elimina el espacio extra si hay espacios en blanco alrededor del logo
+  }
+  
+  .footer-logo img {
+    max-width: 200px; // Ajusta el tamaño del logo
+    height: auto; // Mantiene la proporción del logo
+    opacity: 0.85; // Un toque de transparencia para una integración sutil
+  }
+  

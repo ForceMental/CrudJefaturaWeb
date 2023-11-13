@@ -1,0 +1,17 @@
+<!-- administracion.component.html -->
+<div class="admin-panel">
+    <h2 class="admin-heading">Panel de Administración</h2>
+    <mat-nav-list>
+        <!-- Cambia a '/clientes' para la ruta directa -->
+        <a mat-list-item routerLink="/clientes">Clientes</a>
+        <!-- Asumiendo que 'productos' también es una ruta directa -->
+        <a mat-list-item routerLink="/productos">Productos</a>
+        <!-- Mantén el resto de los enlaces como están si están correctos -->
+        <a mat-list-item routerLink="/navegacion">Dashboard Principal</a>
+    </mat-nav-list>
+    <!-- El router-outlet aquí se usará para renderizar los hijos de 'administracion' -->
+    <router-outlet></router-outlet>
+    <div class="footer-logo">
+        <img src="assets/icon/imagen-force-mental.png" alt="ForceMental Logo">
+    </div>
+</div>
